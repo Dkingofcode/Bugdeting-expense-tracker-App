@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Graph from './components/Graph';
-
+import Form from './components/Form';
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -17,6 +17,7 @@ function App() {
          {/* Chart */}
          <Graph></Graph>
          {/* Form */}    
+
         </div>
         </div>
       </div>

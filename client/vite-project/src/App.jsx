@@ -17,7 +17,7 @@ function App() {
          {/* Chart */}
          <Graph></Graph>
          {/* Form */}    
-
+          <Form></Form>
         </div>
         </div>
       </div>

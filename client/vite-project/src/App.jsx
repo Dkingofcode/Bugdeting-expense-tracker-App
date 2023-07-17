@@ -13,7 +13,7 @@ function App() {
         <h1 className="text-4xl py-8 mb-10 bg-slate-800 text-white rounded">Expense Tracker</h1>
 
         {/* grid columns */}
-        <div className='grid place-items-center border'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center border'>
          {/* Chart */}
          <Graph></Graph>
          {/* Form */}    
